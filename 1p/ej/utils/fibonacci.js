@@ -1,10 +1,9 @@
 /** 
-*   genFibo
-*   @param {number} n - Límite de la sucesión 
-*   Retorna un arreglo con los primeros n elementos de la sucesión de fibonacci
-*/
+ *   genFibo
+ *   @param {number} n - Límite de la sucesión 
+ *   Retorna un arreglo con los primeros n elementos de la sucesión de fibonacci
+ */
 function genFibo(n = 10) {
-    if(typeof n !== 'number') throw new Error('El parámetro "n" debe de ser un número');
     let numArray = [];
     let a = 0;
     let b = 1;
