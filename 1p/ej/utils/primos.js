@@ -20,7 +20,7 @@ function esPrimo(n) {
 function genPrimos(n = 10) {
     let numerosPrimos = new Array();
     let cont = 0;
-    while(numerosPrimos.length < 10) {
+    while(numerosPrimos.length < n) {
         if(esPrimo(cont)) {
             numerosPrimos.push(cont);
         }
