@@ -16,6 +16,7 @@ function genFibo(n = 10) {
         b = c;
         c = a + b;
         numArray.push(c);
+        // numArray.push(c.toString()); // makes the test fail
     }
     return numArray;
 }
