@@ -30,5 +30,6 @@ function genPrimos(n = 10) {
 }
 
 module.exports = {
-    genPrimos
+    genPrimos,
+    esPrimo
 }
