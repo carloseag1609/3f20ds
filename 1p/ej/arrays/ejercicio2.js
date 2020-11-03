@@ -1,7 +1,8 @@
-// Imprimir series de n=10 números según corresponda
+// Generar e imprimir arrays de n=10 números según corresponda
 // usar iteraciones de k={1,n}
 // no leer datos, ie usar constantes x=3
-// Serie de números impares con diferente signo
+// Array de números impares con diferente signo
+
 const {
   genImparesConDiferenteSigno
 } = require('../utils/impares');
