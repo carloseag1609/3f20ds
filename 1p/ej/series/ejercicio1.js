@@ -1,8 +1,10 @@
-const { esImpar } = require("../utils/impares");
+const {
+  esImpar
+} = require("../utils/impares");
 
-let cont  = 0;
-let x     = 10;
-let i     = 0;
+let cont = 0;
+let x = 10;
+let i = 0;
 
 while (i < x) {
   if (esImpar(cont)) {
@@ -10,5 +12,4 @@ while (i < x) {
     i++
   }
   cont++;
-}
-
+} /*  */
