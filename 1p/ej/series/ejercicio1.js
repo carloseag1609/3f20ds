@@ -1,9 +1,13 @@
-// Imprimir series de n=10 números según corresponda
-// usar iteraciones de k={1,n}
-// no leer datos, ie usar constantes x=3
-// Serie de números impares
-const { genImpares, genImparesConDiferenteSigno } = require('../utils/impares');
-const x = 10;
+const { esPrimo } = require("../utils/primos");
 
-const impares = genImpares(x);
-impares.forEach(el => console.log(el));
+let cont  = 0;
+let x     = 10;
+let i     = 0;
+
+while (i < x) {
+  if (esPrimo(cont)) {
+    console.log(cont)
+  }
+  cont++;
+}
+
