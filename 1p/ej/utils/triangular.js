@@ -1,3 +1,8 @@
+/** 
+ * genNumerosTriangulares
+ * @param {}
+ * 
+*/
 function genNumerosTriangulares(n = 10) {
   let numerosTriangulares = new Array();
   for (let i = 1; i <= n; i++) {
