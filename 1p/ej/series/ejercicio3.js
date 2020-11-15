@@ -13,7 +13,7 @@ console.log(a);
 console.log(b);
 console.log(c);
 
-for (let i = 0; i < x; i++) {
+for (let i = 1; i <= x; i++) {
   a = b;
   b = c;
   c = a + b;
