@@ -3,7 +3,7 @@
 // no leer datos, ie usar constantes x=3
 // Array de números impares
 
-const { genImpares, genImparesConDiferenteSigno } = require('../utils/impares');
+const { genImpares } = require('../utils/impares');
 const x = 10;
 
 const impares = genImpares(x);
