@@ -1,15 +1,14 @@
 // haciendo uso de esta secuencia S=[3,1,4,2,3] encontrar
 // existenRepetidos(S)
 let secuencia = [3, 1, 4, 2, 3];
-let setSecuencia = new Set(secuencia);
-let len = 0;
+let repetidos = false;
 
-for(item of setSecuencia) {
-    len++;
-}
+const secuenciaFiltrada = secuencia.filter(function(el, index) {
+    return secuencia.indexOf(el) === index;
+})
 
-if(len < secuencia.length) {
-    console.log('Hay repetidos');
+if(secuenciaFiltrada.length !== secuencia.length) {
+    console.log('Hay repetidos')
 } else {
-    console.log('No hay repetidos');
+    console.log('No hay repetidos')
 }
