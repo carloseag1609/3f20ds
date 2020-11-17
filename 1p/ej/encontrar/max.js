@@ -1,5 +1,7 @@
 // haciendo uso de esta secuencia S=[3,1,4,2,3] encontrar
 // max(S)
+// complejidad: O(n)
+
 let secuencia = [3, 1, 4, 2, 3];
 let max = secuencia[0];
 
