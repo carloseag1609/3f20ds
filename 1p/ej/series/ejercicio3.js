@@ -4,7 +4,6 @@
 // Serie de Fibonacci
 
 const x = 10;
-let numArray = [];
 let a = 0;
 let b = 1;
 let c = a + b;
