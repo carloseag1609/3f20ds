@@ -1,8 +1,8 @@
-function getPotencias(base, exponente, limite) {
+function getPotencias(base, limite) {
     let elementos = [];
 
-    for (exponente = 1; exponente <= limite; exponente++) {
-        elementos.push(Math.pow(base, exponente));
+    for (let i = 1; i <= limite; i++) {
+        elementos.push(Math.pow(base, i));
     }
 
     return elementos;

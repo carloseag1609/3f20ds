@@ -9,8 +9,7 @@ const {
 } = require("../utils/potencia");
 
 const base = 2;
-const exponente = 2;
 const n = 10;
 
-const potencias = getPotencias(base, exponente, n);
+const potencias = getPotencias(base, n);
 potencias.forEach((el, index) => console.log(`${base}^${index + 1} = ${el}`));
