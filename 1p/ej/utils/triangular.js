@@ -6,6 +6,11 @@ function genNumerosTriangulares(n = 10) {
   return numerosTriangulares;
 }
 
+function getTriangular(n = 5) {
+  const triangulares = genNumerosTriangulares(n);
+  return triangulares[n - 1];
+}
+
 module.exports = {
-  genNumerosTriangulares
+  genNumerosTriangulares, getTriangular
 }

@@ -3,6 +3,8 @@
  *   @param {number} n - Límite de la sucesión 
  *   Retorna un arreglo con los primeros n elementos de la sucesión de fibonacci
  */
+
+
 function genFibo(n = 10) {
     let numArray = [];
     let a = 0;
@@ -16,11 +18,15 @@ function genFibo(n = 10) {
         b = c;
         c = a + b;
         numArray.push(c);
-        // numArray.push(c.toString()); // makes the test fail
     }
     return numArray;
 }
 
+function getNumFibo(n = 5) {
+    let arr = genFibo(n);
+    return arr[n + 1];
+}
+
 module.exports = {
-    genFibo
+    genFibo, getNumFibo
 }

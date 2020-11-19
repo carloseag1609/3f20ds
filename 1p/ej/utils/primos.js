@@ -29,7 +29,18 @@ function genPrimos(n = 10) {
     return numerosPrimos;
 }
 
+/** 
+ *   getPrimo
+ *   @param {number} n - Posición de número primo que se necesita 
+ *   Retorna el N número primo
+ */
+function getPrimo(n = 5) {
+    const primos = genPrimos(n);
+    return primos[n - 1];
+}
+
 module.exports = {
     genPrimos,
+    getPrimo,
     esPrimo
 }

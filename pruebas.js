@@ -1,24 +1,12 @@
-let cantidadPrimos = 10; // cuántos primos
-let primosEncontrados = 0; // variable para eso
-let i = 1; // variable pal ciclo
+const S = [3, 1, 4, 2, 3];
+let hayRepetidos = false;
 
-function primo(numero) {
-
-    for (var i = 2; i < numero; i++) {
-
-        if (numero % i === 0) {
-            return false;
+for(let i = 0; i < S.length; i++) {
+    for(let j = i + 1; j < S.length; j++) {
+        if(S[i] === S[j]) {
+            hayRepetidos = true;
         }
-
     }
-
-    return numero !== 1;
 }
 
-while(primosEncontrados <= cantidadPrimos) {
-    if(primo(i)) {
-        console.log(i);
-        primosEncontrados++;
-    }
-    i++;
-}
+hayRepetidos? console.log('Hay repetidos') : console.log('No hay repetidos');
