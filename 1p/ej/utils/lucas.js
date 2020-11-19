@@ -14,6 +14,11 @@ function genSucesionLucas(n = 10) {
   return numeros;
 }
 
+function getNumeroLucas(n = 5) {
+  const numeros = genSucesionLucas(n);
+  return numeros[n - 1];
+}
+
 module.exports = {
-  genSucesionLucas
+  genSucesionLucas, getNumeroLucas
 }
