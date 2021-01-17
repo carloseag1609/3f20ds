@@ -1,0 +1,1 @@
+const Matriz = require('../classes/Matriz');
