@@ -1,1 +1,5 @@
-console.log('Testing')
+function main() {
+    console.log('Main function')
+}
+
+main();
