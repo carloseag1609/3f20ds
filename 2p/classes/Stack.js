@@ -1,15 +1,15 @@
 class Stack {
     constructor() {
-        this.dataStore = [];
+        this.data = [];
         this.top = 0;
     }
 
     push(element) {
-        this.dataStore[this.top++] = element;
+        this.data[this.top++] = element;
     }
 
     pop() {
-        return this.dataStore[--this.top];
+        return this.data[--this.top];
     }
 
     length() {
